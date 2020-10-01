@@ -6,7 +6,7 @@ import nonce from 'nonce';
 import {OAuthStartOptions} from '../types';
 
 import getCookieOptions from './cookie-options';
-import getHost from 'src/lib/get-host';
+import getHost from './../lib/get-host';
 
 const createNonce = nonce();
 
